@@ -1,4 +1,4 @@
-public class Constructor {
+public class ConstructorJ {
     public static void main(String[] args) {
 
         /* Constructor and polymorphism */
