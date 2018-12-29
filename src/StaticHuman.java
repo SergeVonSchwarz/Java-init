@@ -9,10 +9,20 @@ public class StaticHuman {
     public static final int CONSTANT1 = 13;
     public static final int CONSTANT2 = 9;
 
+    public StaticHuman() {
+        this.name = "Jhon";
+        this.age = 40;
+        countHuman++;
+    }
+
     public StaticHuman(String name, int age) {
         this.name = name;
         this.age = age;
         countHuman++;
+    }
+
+    public String toString() {
+        return name + " - " + age;
     }
 
     public void setName(String name) { this.name = name; }
